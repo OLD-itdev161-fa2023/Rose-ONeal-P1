@@ -1,0 +1,29 @@
+{
+  "name": "rose-oneal-p1",
+  "version": "1.0.0",
+  "description": "Project 1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itdev161-fa2023/Rose-ONeal-P1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itdev161-fa2023/Rose-ONeal-P1/issues"
+  },
+  "homepage": "https://github.com/itdev161-fa2023/Rose-ONeal-P1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "pug": "^3.0.2"
+  }
+}
